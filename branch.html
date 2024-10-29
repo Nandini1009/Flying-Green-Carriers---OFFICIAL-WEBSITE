@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flying Green - Logistic Transportation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+   <link href="img/logo.png" rel="icon">
+   <link href="img/logo.png" rel="apple-touch-icon">
+   
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+<style>
+    /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+          <img src="img/logo.png" style="width:140px" >
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About Us</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+                <a href="#Testimonials" class="nav-item nav-link">Testimonials</a>
+                <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="branch.html" class="dropdown-item">Branches</a>
+                        <a href="career.html" class="dropdown-item">Careers</a>
+                    </div></div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                 
+            </div>
+             
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block" style="font-size:15px"><i class="fa fa-headphones text-primary me-3"></i>+91 120 2854715 <br><i class="fa fa-envelope text-primary me-3"></i>info@flyinggreen.co.in</h4>
+
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+        <div class="container py-5 ">
+            <div class="row">
+             <div class="col-sm-91"> 
+<center><h1 style="color:#fff" >Branch Locator</h1></center>
+                    
+        </div>
+         
+                    
+    </div></div></div>
+    <!-- Page Header End -->
+            
+            </div></div>
+           
+
+
+</div>
+     <div class="container-fluid overflow-hidden py-0 px-lg-0">
+       
+                     <nav class="sidebar" style="margin-left:2rem">
+     
+
+      <div class="dropdown">
+  <button class="dropbtn">Select Zone</button>
+  <div class="dropdown-content">
+  <a href="#east" id="btneast" onclick="east">East Zone</a>
+  <a href="#west" id="btnwest" onclick="west">West Zone</a>
+  <a href="#north" id="btnnorth" onclick="north">North Zone</a>
+  <a href="#south" id="btnsouth" onclick="south">South Zone</a>
+
+  </div>
+</div>
+
+ 
+
+<!--<button id="btneast" onclick="test" class="btn btn-primary" style="color: white;">East</button>-->
+
+<br>
+        <div class="scrollbox">
+            <div class="scrollbox-inner">
+               
+<br><br><br><br>
+<div>
+
+<div id="east">
+    <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Kolkata</h4>
+      <p style="font-size:12px"> Gate No -1, Opp. Hotel Management, Shop No-1, Cpt -East Market, Industrial Area, Taratalla Road, Kolkata-700088, West Bengal.
+</p>
+      <button  id="kolkata" onclick="kolkata_map"  class="btn btn-primarys" style="color: white;" onclick="Kolkata">Get Direction</button>
+    </div>
+  </div>
+  </div><br><br><br><br>
+
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Bihar</h4>
+      <p style="font-size:12px"> House-1877, Mouja-Sabalpur, Near Water Tank, Police Station – Didarganj, Patna City, Patna-800009 Bihar.
+</p>
+      <button id="bihar" onclick="bihar_map" class="btn btn-primarys"style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div></div>
+
+
+  <br><br><br><br>
+
+
+<div id="west">
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Gujarat</h4>
+      <p style="font-size:12px"> 1364/B, shree nath estate, near lal ji mul ji transport, by pass road, NH-8, aslali-382427 Ahemdabad, Gujarat.
+</p>
+      <button id="gujarat" onclick="gujarat_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div><br><br><br><br>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Madhya Pradesh</h4>
+      <p style="font-size:12px"> Halka No. 72, Center Point, Lasudia, Parmar, Near Reliance Petrol Pump, Dewas, By Pass Road, Indore-453771, Madhya Pradesh.
+</p>
+      <button id="mp" onclick="mp_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div>
+  <br><br><br><br>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Rajasthan</h4>
+      <p style="font-size:12px"> Khandelwal Farms, Near Hotel Apno, Rajasthan Todi Mode, Sikar Road (Old Delhi-Jaipur Highway), Before New Transport Nagar, Jaipur-302019, Rajasthan.
+
+</p>
+      <button id="rajasthan" onclick="rajasthan_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div>
+  <br><br><br><br>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Himachal Pradesh</h4>
+      <p style="font-size:12px"> Shop No-112, Near Vardhman Chowk, Sai Road, Village-Gullarwala, Baddi-173205, Himachal Pradesh.
+
+</p>
+      <button id="hp" onclick="hp_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div></div>
+  <br><br><br><br>
+  <div id="north">
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Uttar Pradesh
+</h4>
+      <p style="font-size:12px"> Near Chandpur Chauraha, G.T. Road Lahartara, Varanasi-221106, Uttar Pradesh.
+
+</p>
+      <button id="up" onclick="up_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div>
+  <br><br><br><br>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Haryana</h4>
+      <p style="font-size:12px">Plot No.60, Industrial Area, Phase-I, Panchkula-134109, Haryana.
+
+</p>
+      <button id="haryana" onclick="haryana_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div><br><br><br><br>
+  
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Maharashtra
+</h4>
+      <p style="font-size:12px"> Shop No-2, Ground Floor, Sai Arcade, Behind Fm Petrol Pump, Rajpipla, Chokdi, Gidc, Ankleshwar-393002, Gujarat.
+</p>
+      <button id="maharashtra" onclick="maharashtra_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div>
+  <br><br><br><br>
+   </div>
+  
+  <div id="south">
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Karnataka
+</h4>
+      <p style="font-size:12px"> Shop No. 13, Plot No. 4/2, Near Fedax, Adakmaranahalli, Dasanapura Hobli, Makali Post, Bengaluru-562162, Karnataka.
+
+</p>
+      <button id="karnataka" onclick="karnataka_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div>
+  <br><br><br><br>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Tamil Nadu
+</h4>
+      <p style="font-size:12px"> 37/2, Near Vst Motors, Main Bye Pass, Road, Poonamallee, Chennai-600056, Tamil Nadu.
+
+</p>
+      <button id="tamil" onclick="tamil_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div>
+  <br><br><br><br>
+   <div class="row">
+  <div class="column">
+    <div class="card">
+      <h4>Pondicherry
+</h4>
+      <p style="font-size:12px"> 45, Main Road, Mangalam Village, Villianur Commune Pondicherry- 605110.
+
+</p>
+      <button id="pondicherry" onclick="pondicherry_map" class="btn btn-primarys" style="color: white;">Get Direction</button>
+    </div>
+  </div>
+  </div></div></div>
+        </div>
+     </nav>
+     <div class="content">
+        <iframe id="all" onclick="all" src="https://www.google.com/maps/d/u/0/embed?mid=1ltIkhFvKtFDjFFlJ8r-vgeZDZZOia3I&ehbc=2E312F" width="960" height="1500"></iframe>
+
+
+        <iframe id="kolkata_map" onclick="kolkata_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29484.658063570045!2d88.27861339672474!3d22.51985134677129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGate%20No%20-1%2C%20Opp.%20Hotel%20Management%2C%20Shop%20No-1%2C%20Cpt%20-East%20Market%2C%20Industrial%20Area%2C%20Taratalla%20Road%2C%20Kolkata-700088%2C%20West%20Bengal.!5e0!3m2!1sen!2sin!4v1680851836151!5m2!1sen!2sin" width="960" height="1500"></iframe>
+
+
+        <iframe id="bihar_map" onclick="bihar_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14394.95349544413!2d85.24688377253804!3d25.580369594014893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sHouse-1877%2C%20Mouja-Sabalpur%2C%20Near%20Water%20Tank%2C%20Police%20Station%20%E2%80%93%20Didarganj%2C%20Patna%20City%2C%20Patna-800009%20Bihar.!5e0!3m2!1sen!2sin!4v1680851911183!5m2!1sen!2sin"  width="960" height="1500"></iframe>
+
+
+         <iframe id="gujarat_map" onclick="gujarat_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3674.5013718146192!2d72.59332371444053!3d22.931755425471827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1364%2FB%2C%20shree%20nath%20estate%2C%20near%20lal%20ji%20mul%20ji%20transport%2C%20by%20pass%20road%2C%20NH-8%2C%20aslali-382427%20Ahemdabad%2C%20Gujarat.!5e0!3m2!1sen!2sin!4v1680938676458!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+
+          <iframe id="mp_map" onclick="mp_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3674.5013718146192!2d72.59332371444053!3d22.931755425471827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s1364%2FB%2C%20shree%20nath%20estate%2C%20near%20lal%20ji%20mul%20ji%20transport%2C%20by%20pass%20road%2C%20NH-8%2C%20aslali-382427%20Ahemdabad%2C%20Gujarat.!5e0!3m2!1sen!2sin!4v1680938676458!5m2!1sen!2sin"  width="960" height="1500"></iframe>
+
+
+          <iframe id="rajasthan_map" onclick="rajasthan_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3554.6338701554987!2d75.78817081452279!3d27.010129362392913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKhandelwal%20Farms%2C%20Near%20Hotel%20Apno%2C%20Rajasthan%20Todi%20Mode%2C%20Sikar%20Road%20(Old%20Delhi-Jaipur%20Highway)%2C%20Before%20New%20Transport%20Nagar%2C%20Jaipur-302019%2C%20Rajasthan.!5e0!3m2!1sen!2sin!4v1680852062184!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+           <iframe id="hp_map" onclick="hp_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d27376.268846667313!2d76.7922511585195!3d30.941625928638295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShop%20No-112%2C%20Near%20Vardhman%20Chowk%2C%20Sai%20Road%2C%20Village-Gullarwala%2C%20Baddi-173205%2C%20Himachal%20Pradesh.!5e0!3m2!1sen!2sin!4v1680852097946!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+
+            <iframe id="up_map" onclick="up_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28854.68500659484!2d82.95867065017991!3d25.309726112314202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNear%20Chandpur%20Chauraha%2C%20G.T.%20Road%20Lahartara%2C%20Varanasi-221106%2C%20Uttar%20Pradesh.!5e0!3m2!1sen!2sin!4v1680852150891!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+            <iframe id="haryana_map" onclick="haryana_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.4666188569213!2d76.8311510146094!3d30.67714479536158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f94a90afec3a1%3A0x7119b7eb5ccdc5c3!2s60%2C%20Industrial%20Area%20Phase%202%2C%20Panchkula%2C%20Haryana%20134113!5e0!3m2!1sen!2sin!4v1680852199521!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+             <iframe id="maharashtra_map" onclick="maharashtra_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3708.7295434404664!2d73.0228725644176!3d21.63546012216638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShop%20No-2%2C%20Ground%20Floor%2C%20Sai%20Arcade%2C%20Behind%20Fm%20Petrol%20Pump%2C%20Rajpipla%2C%20Chokdi%2C%20Gidc%2C%20Ankleshwar-393002%2C%20Gujarat.!5e0!3m2!1sen!2sin!4v1680852238726!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+             <iframe id="karnataka_map" onclick="karnataka_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3886.6016152671727!2d77.4584800143052!3d13.061011316445157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShop%20No.%2013%2C%20Plot%20No.%204%2F2%2C%20Near%20Fedax%2C%20Adakmaranahalli%2C%20Dasanapura%20Hobli%2C%20Makali%20Post%2C%20Bengaluru-562162%2C%20Karnataka.!5e0!3m2!1sen!2sin!4v1680852277485!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+             <iframe id="tamil_map" onclick="tamil_map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d497082.5613087292!2d79.83959588661622!3d13.25932530988711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s37%2F2%2C%20Near%20Vst%20Motors%2C%20Main%20Bye%20Pass%2C%20Road%2C%20Poonamallee%2C%20Chennai-600056%2C%20Tamil%20Nadu.!5e0!3m2!1sen!2sin!4v1680852391803!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+
+                <iframe id="pondicherry_map" onclick="pondicherry_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.1782464363177!2d79.73499461429522!3d11.892673440850254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a535f0759cab7f5%3A0xe154704a8dc81629!2sSteril%20Gene%20Life%20Sciences%20(P)%20Limited!5e0!3m2!1sen!2sin!4v1680852450482!5m2!1sen!2sin"   width="960" height="1500"></iframe>
+     </div></div>
+                    
+                   
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-50">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <a href="https://www.google.com/maps/place/Flying+Green+Carriers+Pvt+Ltd/@28.6727332,77.4130193,17z/data=!3m1!4b1!4m6!3m5!1s0x390cf04b2e1af53d:0x764a9d074198ddc3!8m2!3d28.6727285!4d77.4155942!16s%2Fg%2F11b8_qhs8b" target="_blank" style="color:#fff" ><p class="mb-5"><i class="fa fa-map-marker-alt me-3"></i>Flying Green Carriers Pvt Ltd<br>
+<span style="padding-left:28px" "color: white;">A-100,PatelNagar-II, </span>
+<span style="padding-left:28px" "color: white;">Ghaziabad 201002 (U.P.)</span></p></a>
+                    <a href="tel:+919910043310" target="_blank" style="color:#fff"><p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 120 2854715 </p></a><a href="tel:+919910043310"target="_blank" style="color:#fff"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 120 2854716</p></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRQGRbklLjPQvCXwLcwsWtnwvXQvGKbpdZngvlLXzJNzJhhQhnrqRfbVRWhrnCfHNbKGbc" target="_blank" style="color:#fff"><p class="mb-2"><i class="fa fa-envelope me-3"></i>info@flyinggreen.co.in</p></a><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdDxzBZRVwpdvfLjVgLgpWRtgpkmbkqscjFlTpsZSKfbdKHLJQgSQcTPmqplLsHNcfkwWmg" target="_blank" style="color:#fff" ><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fgc@flyinggreen.co.in</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                   <a class="btn btn-link" href="#services">Transport</a>
+                    <a class="btn btn-link" href="#services">Third Party Logistics (3PL)</a>
+                    <a class="btn btn-link" href="#services">Rail Cargo Services</a>
+                    <a class="btn btn-link" href="#services">Customized Logistics Solutions</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="#services">Our Services</a>
+                    <a class="btn btn-link" href="terms&condition.html">Terms & Condition</a>
+                   <br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Subscribe our newsletter for update yourself.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                     <img src="img/google-play.png" style="width: 115px;">&nbsp;&nbsp;
+&nbsp;
+                    <img src="img/app-store.png" style="width: 115px;">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                       <br><br><br> &copy; <a class="" href="#">Flying Green Carriers</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                                                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Navbar End -->
+
+
+   
+
+
+    <!-- Feature Start -->
+   
+    <!-- Feature End -->
+        
+
+
+
+
+    
+        
+
+   
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>  
+function Map123() {  
+var mapOptions = {  
+    center:new google.maps.LatLng(51.508742,-0.120850),  
+    zoom: 10,  
+    mapTypeId: google.maps.MapTypeId.HYBRID  
+}  
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);  
+}  
+</script>  
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=Map123"></script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+
+
+</html>

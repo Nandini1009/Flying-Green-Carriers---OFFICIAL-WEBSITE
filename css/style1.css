@@ -1,0 +1,205 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=poppins:wght@400;500;600;700;800;900&display=swap');
+
+     ::-webkit-scrollbar{
+        width: 15px;
+     }
+     ::-webkit-scrollbar-thumb{
+        background: darkgrey;
+        border-radius: 10px;
+     }
+     .sidebar{
+        position: absolute;
+        top: 5;
+        left: 0;
+        width: 300px;
+        height: 120%;
+        background: linear-gradient(-45deg, #fff, #fff);
+        display: inline-flex;
+        flex-direction: column;
+        padding: 20px 5px 0 20px;
+        z-index: 100;
+         box-shadow: 10px 10px 20px 12px #2c704a78;
+     }
+     header h2{
+        font-size: 32px;
+        color: #fff;
+        padding-bottom:5px ;
+     }
+     .scrollbox{
+        overflow: auto;
+        padding-right: 10px;
+        visibility: hidden;
+     }
+     .scrollbox-inner,
+     .scrollbox:hover{
+        visibility: visible;
+     }
+     .scrollbox-inner p{
+        font-size: 16px*j;
+        color: black;
+     }
+     .text-center {
+    text-align: center!important;
+}
+
+element.style {
+}
+.breadcumb-wrap h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fff;
+    margin-top: 85px;
+}
+.breadcumb-area {
+    background: url(../img/2.3.jpg) no-repeat center top / cover;
+    min-height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+     .content{
+        position: relative;
+        left: 371px;
+        width: calc(100% - 250px);
+        height: 110vh;
+        background: white;
+        display: flex;
+     }
+     .content h2{
+        font-size: 46px;
+        margin: auto;
+        background: linear-gradient(-45deg, #571845, #c70039);
+        -webkit-text-fill-color:transparent;
+        -webkit-background-clip:text;
+        position: fixed;
+     }
+
+     /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  width: 250px;
+  height: auto;
+  border-radius: 0;
+  padding-top: 50%;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 65%;
+  background: #f1f1f1;
+}
+
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+.dropbtn {
+  background-color: #fff ;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: 245px;
+  margin-right: 10px;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 245px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+body {
+  background: black;
+}

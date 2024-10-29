@@ -1,0 +1,15 @@
+﻿.team-item.p-4 {
+  max-height: 220px !important;
+}
+.col-lg-5.wow.fadeInUp {
+  margin-top: 160px;
+}
+.row.g-5.align-items-center {
+  margin-top: -100px !important;
+}
+/* .text-md-start {
+  text-align: end !important;
+  position: relative;
+  bottom: -70px;
+  left: 140px;
+} */

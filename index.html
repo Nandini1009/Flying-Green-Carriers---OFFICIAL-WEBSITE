@@ -1,0 +1,669 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flying Green - Logistic Transportation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+   <link href="img/logo.png" rel="icon">
+   <link href="img/logo.png" rel="apple-touch-icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+
+       
+    
+    
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+<!-- new css  -->
+<link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <!-- <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>-->
+    <!-- Spinner End -->
+
+    <div class="header">
+        <!-- <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRQGRbklLjPQvCXwLcwsWtnwvXQvGKbpdZngvlLXzJNzJhhQhnrqRfbVRWhrnCfHNbKGbc" target="_blank" style="color:#fff"><i class="fa fa-envelope me-3"></i>info@flyinggreen.co.in</a> -->
+        <a href="mailto:info@flyinggreen.co.in?subject=Mail from our Website" style="text-decoration: none;color: #fff;">info@flyinggreen.co.in</a>
+  
+  <div class="header-right">
+    <a href="tel:+919910043310" target="_blank" style="color:#fff" ><i class="fa fa-phone-alt me-3"> +91 120 2854715</i></a>
+  </div>
+</div>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
+          <img src="img/logo.png" style="width:140px" >
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About Us</a>
+                <a href="#services" class="nav-item nav-link">Services</a>
+                <a href="#Testimonials" class="nav-item nav-link">Testimonials</a>
+                <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Others</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="branch.html" class="dropdown-item">Branches</a>
+                        <a href="career.html" class="dropdown-item">Careers</a>
+                    </div></div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                <a class="bttn" href="#" id="myBtn" style="font-size:1rem;">Track Consignment</a>
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                
+                  <!-- Modal content -->
+                  <div class="modal-content w3-animate-top" style="margin-right: 4rem;">
+                    <span class="closing" style="margin-left: 27rem;margin-top: -1rem;">&times;</span>
+                     <!-- <div class="modal-header">
+                       <h5 style="color:#fff; text-align: center;">Track Your Consignment</h5>
+                      </div> -->
+                      <div class="modal-body" >
+                        <label><b><h5 style="margin-left:5rem">Tracking ID :</h5></b></label>
+                        <div class="col-md-12" style="margin-top: 6rem;margin-left: 2rem;">
+                            <div class="row">                              
+                                 
+                          <div class="col-md-7"><input type="" name="" style="height: 2.5rem;" ></div>
+                          <div class="col-md-5"> <button  class="btn btn-primary">Track</button></div>
+                            </div>
+                        </div>
+                        
+                      </div>
+                      <center>
+                        </center>
+                      
+
+
+                  </div>
+                
+                </div>
+
+                 
+            </div>
+            
+
+
+
+
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5" id="top">
+        <div class="owl-carousel header-carousel position-relative mb-5">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/13.jpg" style="height: 545px;" "width: 180%;" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, 0.1);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                 <b><h5 class="text-white text-uppercase mb-3 animated slideInDown">Family Owned Since 1969</h5></b>
+                                <h1 class=" text-white animated slideInDown mb-4">A Team of Logistic experts <br>providing best-in-class<br>  <span class="text-primary">Logistic </span> Solution</h1>
+                                <p class="fs-5 fw-medium text mb-4 pb-2" style="color:#2C704A" >Instant Response & Tracking 24X7 </p>
+            
+                                <a href="login.html" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" target="_blank">Client Login</a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/12.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(6, 3, 21, 0);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                 <b><h5 class="text-white text-uppercase mb-3 animated slideInDown">Family Owned Since 1969</h5></b>
+
+                                <h1 class=" text-white animated slideInDown mb-4">A Team of Logistic experts <br>providing best-in-class<br>  <span class="text-primary">Logistic </span> Solution</h1>
+                                <p class="fs-5 fw-medium text mb-4 pb-2" style="color:#2C704A" >Instant Response & Tracking 24X7 </p>
+                                
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Client Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+   
+     <!-- Team Start -->
+    <div class="container-xxl py-52">
+        <div class="container py-52">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase mb-3">Domains</h6><hr class="w-25 mx-auto ">
+                <h1 class="mb-5">Our Specialized Domains</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <center><img class="img-fluid" src="img/1.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">Drugs & Pharmaceuticals</h5></center>
+                        <div class="btn-slide mt-1">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <center><img class="img-fluid" src="img/2.png" alt="" style="border-radius: 100px;"></center>
+                        </div>
+                        <center><h5 class="mb-0">Oils, Paints & Lubricants</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                          <center>  <img class="img-fluid" src="img/3.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">Nutritional <br>Suppliments</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                           <center> <img class="img-fluid" src="img/4.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">Inverter & <br>Batteries</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                          <center>  <img class="img-fluid" src="img/5.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">Apparels</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                           <center> <img class="img-fluid" src="img/6.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">FMGC & Hygiene</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                          <center>  <img class="img-fluid" src="img/7.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">Cosmetics</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <center><img class="img-fluid" src="img/8.png" style="border-radius: 100px;"alt=""></center>
+                        </div>
+                        <center><h5 class="mb-0">Consumer Electronics</h5></center>
+                        <div class="btn-slide mt-1">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>            <hr class="w-25 mx-auto ">
+
+    <!-- Team End -->
+
+
+
+    
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-52 px-lg-0" id=about>
+        <div class="container feature py-52 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                   
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="ms-4">
+                            <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
+                    <h1 class="mb-5">Dedicated Transport & Logistics Solutions</h1>
+                    <p class="mb-5">FLYING GREEN CARRIERS PVT LTD, (FGCPL) is one of the prime companies engaged in the business of transportation and allied                   activities growing at a rapid speed. FGCPL is well established, professionally managed company having more than 50 Branch                   Offices across the country and now delivering till BENAPOLE (Bangladesh Border). We own a large fleet of 250 varieties of                   vehicles and 500+ attached vehicles to ensure the fastest delivery of goods.<br>FGCPL is proud of being known as one of the quality transportation service providers on pan India level </p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/14.jpg" style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+<!-- Team Start --><hr class="w-25 mx-auto ">
+    <div class="container-xxl py-52">
+        <div class="container py-52">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item p-4" style="background-color: #2C704A;">
+                        <div class="overflow-hidden mb-4">
+                        </div>
+                        <center><h1 data-toggle="counter-up" style="color:#fff">35</h1><h5 class="mb-0" style="color:#fff">Total Branches</h5></center>
+                        <div class="btn-slide mt-1">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                     <div class="team-item p-4" style="background-color: #2C704A;">
+                        <div class="overflow-hidden mb-4">
+                        </div>
+                        <center><h1 data-toggle="counter-up" style="color:#fff">270</h1><h5 class="mb-0" style="color:#fff">Client pan India</h5></center>
+                        <div class="btn-slide mt-1">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                     <div class="team-item p-4" style="background-color: #2C704A;">
+                        <div class="overflow-hidden mb-4">
+                        </div>
+                        <center><h1 data-toggle="counter-up" style="color:#fff">329</h1><h5 class="mb-0" style="color:#fff">Owned Vehicles</h5></center>
+                        <div class="btn-slide mt-1">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s" >
+                    <div class="team-item p-4"style="background-color: #2C704A;">
+                        <div class="overflow-hidden mb-4">
+                        </div>
+                        <center><h1 data-toggle="counter-up" style="color:#fff">92,500</h1><h5 class="mb-0" style="color:#fff">Tons of Goods</h5></center>
+                        <div class="btn-slide mt-1">
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+          
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+  
+     <!-- Service Start -->
+    <div class="container-xxl py-52" id=services>
+        <div class="container py-52">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="text-secondary text-uppercase">Our Services</h6><hr class="w-25 mx-auto ">
+                <h1 class="mb-5">Explore Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/fg1.jpg" style="width: 100%;">
+                        </div>
+                        <h4 class="mb-3">Transportation</h4>
+                        <p style="margin-bottom: 11%;">FGCPL offers excellent transport </p>
+                        <a class="btn-slide mt-2" href="contact.html"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/service-6.jpg" style="height: 200px;" width="100%">
+                        </div>
+                        <h4 class="mb-3">Third Party Logistics (3PL)</h4>
+                        <p>Offering warehouse facility and </p>
+                        <a class="btn-slide mt-2" href="contact.html"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/11.png" alt="">
+                        </div>
+                        <h4 class="mb-3">Refrigerated Vans - Cold Chain Logistics</h4>
+                        <p>Launched a fleet of refrigerated vehicles </p>
+                        <a class="btn-slide mt-2" href="contact.html"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/20.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Rail Cargo Services</h4>
+                        <p>offering rail cargo services for major shipments from almost all major cities in  </p>
+                        <a class="btn-slide mt-2" href="contact.html"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/14.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Warehousing & Distribution Management </h4>
+                        <p>Warehouse Operations Management</p>
+                        <a class="btn-slide mt-2" href="contact.html"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item p-4">
+                        <div class="overflow-hidden mb-4">
+                            <img class="img-fluid" src="img/19.jpg" alt="">
+                        </div>
+                        <h4 class="mb-3">Customised Logistics Solutions</h4>
+                        <p>Are you looking for customized transport </p>
+                        <a class="btn-slide mt-2" href="contact.html"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    
+ <!-- Testimonial Start -->
+    <div id=Testimonials class="container-xxl py-52 wow fadeInUp" data-wow-delay="0.1s" >
+        <div class="container py-52">
+            <div class="text-center">
+                                <h6 class="text-secondary text-uppercase mb-3">Testimonials</h6>
+                              <hr class="w-25 mx-auto ">
+                <h1 class="mb-0">Explore Testimonials</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/15.jpg" style="width: 75%; height: 75%;">
+                        
+                    </div>
+                   
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0"  src="img/16.jpg" style="width: 75%; height: 75%;">
+                        
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/17.jpg" style="width: 75%; height: 75%;">
+                        
+                    </div>
+                   
+                </div>
+                <div class="testimonial-item p-4 my-5">
+                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
+                    <div class="d-flex align-items-end mb-4">
+                        <img class="img-fluid flex-shrink-0" src="img/17.jpg" style="width: 75%; height: 75%;">
+                        
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div><hr class="w-25 mx-auto ">
+    <!-- Testimonial End -->
+        
+
+
+
+
+   <!-- Quote Start -->
+    <div class="container-xxl py-52">
+        <div class="container py-52">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                                                    <h6 class="text-secondary text-uppercase mb-3">Request A Quote</h6>
+
+                    <h1 class="mb-5">An Efficient Flying Green System</h1>
+                    <p class="mb-5">FLYING GREEN is specialized in the surface transportation and offers to its customers a unique satisfying experience. Company always believes in offering to its customer’s innovative solutions to their varied needs of transportation of goods country wide. A team of professionally qualified persons is always available to offer the best services.</p>
+                     Logistics
+   <div class="container">
+       <div class="skill_row">
+           <div class="skill_row_percent">
+               <div class="skill_row_percent_view">90%</div>
+           </div>
+       </div>
+   </div><br>
+
+    Road Transport
+   <div class="container">
+       <div class="skill_row">
+           <div class="skill_row_percent">
+               <div class="skill_row_percent_view">98%</div>
+           </div>
+       </div>
+   </div><br>
+
+    Rail Transport
+   <div class="container">
+       <div class="skill_row">
+           <div class="skill_row_percent">
+               <div class="skill_row_percent_view">90%</div>
+           </div>
+       </div>
+   </div><br>
+
+    Support
+   <div class="container">
+       <div class="skill_row">
+           <div class="skill_row_percent">
+               <div class="skill_row_percent_view">99%</div>
+           </div>
+       </div>
+   </div>
+              <br>
+
+<p class="mb-5">Whether you require distribution or fulfillment, defined freight forwarding, or a complete supply chain solution, we are here for you.</p>
+                    <div class="d-flex align-items-center">
+                        <div class="ps-4">
+                          
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="bg-light text-center p-5 wow fadeIn" data-wow-delay="0.5s">
+                        <form>
+                            <div class="row g-3"><h1>Request a Quote</h1>
+                                <div class="col-12 col-sm-6">
+
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select</option>
+                                        <option value="1">Transport</option>
+                                        <option value="2">Freight</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w1-100 py-3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
+
+ 
+
+ 
+
+   
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 6rem;">
+        <div class="container py-50">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <a href="https://www.google.com/maps/place/Flying+Green+Carriers+Pvt+Ltd/@28.6727332,77.4130193,17z/data=!3m1!4b1!4m6!3m5!1s0x390cf04b2e1af53d:0x764a9d074198ddc3!8m2!3d28.6727285!4d77.4155942!16s%2Fg%2F11b8_qhs8b" target="_blank" style="color:#fff" ><p class="mb-5"><i class="fa fa-map-marker-alt me-3"></i>Flying Green Carriers Pvt Ltd<br>
+<span style="padding-left:28px" "color: white;">A-100,PatelNagar-II, </span>
+<span style="padding-left:28px" "color: white;">Ghaziabad 201002 (U.P.)</span></p></a>
+                    <a href="tel:+919910043310" target="_blank" style="color:#fff"><p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 120 2854715 </p></a><a href="tel:+919910043310"target="_blank" style="color:#fff"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 120 2854716</p></a>
+                    <!-- <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRQGRbklLjPQvCXwLcwsWtnwvXQvGKbpdZngvlLXzJNzJhhQhnrqRfbVRWhrnCfHNbKGbc" target="_blank" style="color:#fff"> -->
+                         <a href="mailto:info@flyinggreen.co.in?subject=Mail from our Website" style="text-decoration: none;color: #fff;"><p class="mb-2"><i class="fa fa-envelope me-3"></i>info@flyinggreen.co.in</p></a>
+                    <!-- <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsdDxzBZRVwpdvfLjVgLgpWRtgpkmbkqscjFlTpsZSKfbdKHLJQgSQcTPmqplLsHNcfkwWmg" target="_blank" style="color:#fff" > -->
+                         <a href="mailto:fgc@flyinggreen.co.in?subject=Mail from our Website"style="text-decoration: none;color: #fff;"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fgc@flyinggreen.co.in</p></a>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="#top"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#top"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#top"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#top"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                   <a class="btn btn-link" href="#services">Transport</a>
+                    <a class="btn btn-link" href="#services">Third Party Logistics (3PL)</a>
+                    <a class="btn btn-link" href="#services">Rail Cargo Services</a>
+                    <a class="btn btn-link" href="#services">Customized Logistics Solutions</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="#about">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="#services">Our Services</a>
+                    <a class="btn btn-link" href="terms&condition.html">Terms & Condition</a>
+                   <br>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>Subscribe our newsletter for update yourself.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                     <img src="img/google-play.png" style="width: 115px;">&nbsp;&nbsp;
+&nbsp;
+                    <img src="img/app-store.png" style="width: 115px;">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                       <br><br><br> &copy; <a class="" href="#">Flying Green Carriers</a>, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                                                                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+
+    
+</body>
+
+</html>
